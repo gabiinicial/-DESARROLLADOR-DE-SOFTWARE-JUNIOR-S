@@ -1,0 +1,45 @@
+<h1 class="title">Información educativa - Tolima</h1>
+
+<div class="municipaly">
+    <h4>Municipios</h4>
+<select [(ngModel)]="selectMunicipaly" (change)="getMunicipaly()">
+
+  <option *ngFor="let showElements of answerMunicipaly" value="{{showElements.dane}}">
+    {{showElements.nombre}}
+  </option>
+</select>
+</div>
+
+<div class="institucion">
+    <h4>Instituciones Educativas</h4>
+<select [(ngModel)]="selectInstitution" (change)="getInstitutions()">
+  <option *ngFor="let showInstitutions of answerInstitutions" value="{{showInstitutions.dane}}">
+    {{showInstitutions.nombre}}
+  </option>
+</select>
+</div>
+
+<div class="sede">
+    <h4>Sedes</h4>
+<select [(ngModel)]="selectsede" (change)="getsedes()">
+  <option *ngFor="let showsedes of  answersedes" value="{{showsedes.dane}}">
+    {{showsedes.nombre}}
+  </option>
+</select>
+</div>
+
+<div class="grupo">
+    <table>
+        <tr>
+            <th>Número de Grupo</th>
+            <th>Nombre</th>
+            <th>Identificador</th>
+        </tr>
+   
+  <tr *ngFor="let showgroups of  answergroup">
+      <td>{{showgroups.numGrupo}}</td>
+      <td>{{showgroups.nombre}}</td>
+      <td>{{showgroups.id}}</td>
+  </tr>
+</table>
+</div>

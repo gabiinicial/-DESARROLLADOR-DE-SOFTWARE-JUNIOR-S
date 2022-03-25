@@ -1,0 +1,47 @@
+.title{
+    color: rgb(4, 22, 100);
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.municipaly{
+    margin-left: 1.5rem;
+}
+.municipaly select{
+    width: 50vw;
+    height: 2rem;
+    border: 2px solid rgb(4, 22, 100);
+    border-radius: 5px;
+}
+.institucion{
+    margin-left: 1.5rem;
+}
+.institucion select{
+    width: 50vw;
+    height: 2rem;
+    border: 2px solid rgb(4, 22, 100);
+    border-radius: 5px;
+}
+.sede{
+    margin-left: 1.5rem;
+}
+.sede select{
+    width: 50vw;
+    height: 2rem;
+    border: 2px solid rgb(4, 22, 100);
+    border-radius: 5px;
+}
+.grupo table{
+    width: 100%;
+    padding-top: 4rem;
+    margin: 0 auto;
+    
+    
+}
+.grupo td, th {
+    text-align: center;
+    padding: 8px;
+    font-size: 1.2rem;
+    color:rgb(4, 22, 100);
+    background-color: rgb(156, 173, 248);
+  }
+  
